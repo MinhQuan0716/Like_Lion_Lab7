@@ -4,7 +4,7 @@ function ComponentTimer() {
   const [timer, setTimer] = useState(10);
   useEffect(() => {
     if (timer === 0) {
-      alert("Timeout");
+      alert("Time's up");
       return;
     }
     const interval = setInterval(() => {
